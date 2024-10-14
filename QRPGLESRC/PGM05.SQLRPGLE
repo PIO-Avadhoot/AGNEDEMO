@@ -2,13 +2,13 @@
        //* Programmers.IO - Lunch and Learn Sessions 2022-2023                  *
        //*--------------------------------------------------------------------- *
        Ctl-Opt Option (*NoDebugIo:*SrcStmt:*NounRef) DftActGrp(*No);
-
+       //File Declarations 
        Dcl-F Sales;
-
+       //Data Structure Defications
        Dcl-DS SalesData ExtName('SALES');
         SalesForQtr  Like(Q1) SamePos(Q1) Dim(4);
        End-DS;
-
+       //Variable Declarations
        Dcl-S Total Packed(9:2) Inz;
 
 
