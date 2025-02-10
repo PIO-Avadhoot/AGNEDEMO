@@ -1,5 +1,5 @@
      A*%%TS  SD  20230301  031611  ANPIO1      REL-V7R3M0  5770-WDS
-     A*%%EC
+     A*%%EC  DD
      A                                      DSPSIZ(24 80 *DS3)
      A                                      INDARA
      A          R HEADER
